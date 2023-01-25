@@ -3,8 +3,9 @@
 """
 
 
-    class Square:
-        """Represents a 2D Polygon with 4 elqual and perpendicular sides.
-        """
+class Square:
+    """Represents a 2D Polygon with 4 elqual and perpendicular sides.
+    """
 
-        pass
+
+pass
