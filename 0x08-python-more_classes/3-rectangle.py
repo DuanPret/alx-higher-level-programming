@@ -92,7 +92,7 @@ class Rectangle:
         if self.width == 0 or self.height == 0:
             return ''
         else:
-            res = list(map(lambda x:
-                '#' * self.width + '\n' * (x != self.height - 1),
+            res = list(map(
+                lambda x: '#' * self.width + '\n' * (x != self.height - 1),
                 range(self.height)))
             return ''.join(res)
