@@ -102,7 +102,7 @@ Checking for empty arguments to integer_validator:
 	>>> b.integer_validator()
 	Traceback (most recent call last):
 	...
-	TypeError: integer_validator() missing 2 recquired positional arguments: 'name' and 'value'
+	TypeError: integer_validator() missing 2 required positional arguments: 'name' and 'value'
 
 Checking for only 1 argument to integer_validator:
 	>>> b.integer_validator("integer")
