@@ -15,10 +15,10 @@ case 1: common case
 >>> my_list.append(3)
 >>> my_list.append(5)
 >>> print(my_list)
-[1, 4, 3, 5]
+[1, 4, 2, 3, 5]
 >>> my_list.print_sorted()
 [1, 2, 3, 4, 5]
->>> my_list(my_list)
+>>> print(my_list)
 [1, 4, 2, 3, 5]
 >>>
 
@@ -28,7 +28,7 @@ case 2: not defined object
 
 >>> MyList = __import__('1-my_list').MyList
 >>> my_list2.print_sorted()
-Trackback (most recent call last):
+Traceback (most recent call last):
   File "<stdin>", line 1, in <module>
 NameError: name 'my_list2' is not defined
 >>>
@@ -100,5 +100,5 @@ case 8: negative numbers
 >>> my_list.append(-2)
 >>> my_list.append(-5)
 >>> my_list.print_sorted()
->>> [-5, -2, -1, 2, 5, 98]
+[-5, -2, -1, 2, 5, 98]
 >>> 
